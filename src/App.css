@@ -1,0 +1,80 @@
+.toolbar__card{
+  box-shadow: 0 0 #0000;
+  padding: 1rem;
+  border-radius: 0.375rem;
+  
+  height: 100vh;
+  overflow-y: scroll;
+
+}
+
+.field {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 15px 0;
+  border-radius: 5px;
+  padding: 20px;
+}
+.input-bordered {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: unset !important;
+}
+
+.input-bordered:focus {
+  outline: 1px solid green;
+}
+
+
+
+
+/* ModalPreview  css */
+
+.modal-preview-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.modal-preview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-name-input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.divider {
+  margin: 10px 0;
+}
+
+.final-field {
+  margin-bottom: 20px;
+}
+
+.field-header {
+  margin-bottom: 10px;
+}
+
+.form-textfield,
+.form-select,
+.form-textarea {
+  width: 100%;
+}
+
+.no-fields {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.save-button {
+  padding: 12px 24px;
+  border-radius: 8px;
+}
